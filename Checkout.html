@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cehckout Page</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="flex flex-col bg-gray-100">
+    <div class="flex justify-center items-center px-12 py-4 w-full text-base font-medium tracking-tight text-white bg-black max-md:px-5 max-md:max-w-full">
+        <div class="flex gap-5 w-full max-w-[1112px] max-md:flex-wrap max-md:max-w-full">
+        <div>EUR</div>
+        <div class="flex-auto">FREE SHIPPING ON ALL SHOES APRIL. 25–30.</div>
+        <a href="javascript:void(0);" onclick="return false;">Support</a>
+        </div>
+    </div>
+    <header class="flex flex-col mt-5 w-full text-lg tracking-tight text-black max-md:max-w-full">
+        <div class="flex gap-5 justify-between self-center px-px w-full max-w-[1116px] max-md:flex-wrap max-md:max-w-full">
+            <div class="flex gap-12 justify-center px-12 max-md:flex-wrap">
+                <a href="home.html" class="text-xl font-bold">Running Shoes</a>
+                <a href="Shop.html">Men</a>
+                <a href="javascript:void(0);" onclick="return false;">Women</a>
+                <a href="javascript:void(0);" onclick="return false;">Kids</a>
+                <div class="flex gap-3 py-0 my-auto whitespace-nowrap text-neutral-400">
+                  <img loading="lazy" src="Images/CheckoutImages/search.svg" alt="" class="shrink-0 w-4 aspect-square fill-black" />
+                  <div>Search</div>
+                </div>
+              </div>
+        <div class="flex gap-5 justify-between px-12 my-auto whitespace-nowrap">
+            <a href="javascript:void(0);" onclick="return false;" class="flex gap-2.5 self-start px-0.5">
+                <img loading="lazy" src="Images/CheckoutImages/heart.svg" alt="" class="shrink-0 my-auto w-7 aspect-[1.08] fill-black" />
+              </a>              
+              <a href="cart.html" class="flex gap-2">
+                <img loading="lazy" src="Images/HomeImages/cart.svg" alt="" class="shrink-0 aspect-[0.85] fill-black w-[18px]" />
+                <div class="my-auto">2</div>
+              </a>
+              <a href="javascript:void(0);" onclick="return false;">Login</a>
+        </div>
+        </div>
+        <div class="mt-4 w-full bg-black border border-black border-solid min-h-[1px] max-md:max-w-full"></div>
+    </header>
+    <main class="flex flex-col px-12 mt-12 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
+        <h1 class="self-start ml-0 text-4xl font-semibold tracking-tighter leading-10 text-black max-md:ml-2.5">Checkout</h1>
+        <div class="flex gap-5 justify-between items-start mt-5 ml-0 max-w-full tracking-tight w-[729px] max-md:flex-wrap">
+        <nav class="flex gap-3.5 justify-center mt-1 text-lg leading-7 text-black whitespace-nowrap">
+            <div class="font-bold">Address</div>
+            <div class="shrink-0 my-auto h-px bg-black border border-black border-solid w-[67px]"></div>
+            <div>Shipping</div>
+            <div class="shrink-0 my-auto h-px bg-black border border-black border-solid w-[67px]"></div>
+            <div>Payment</div>
+        </nav>
+        </div>
+        <br>
+        <div class="self-center mt-15 w-full max-w-[1051px] max-md:max-w-full">
+        <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+            <section class="flex flex-col w-[58%] max-md:ml-0 max-md:w-full">
+            <div class="flex flex-col self-stretch my-auto max-md:mt-10">
+                <h2 class="text-xl tracking-tight leading-7 text-neutral-800">Shipping Information</h2>
+                <form class="flex flex-col mt-5">
+                <div class="flex gap-2 text-sm tracking-tight text-gray-400">
+                    <div class="flex flex-col flex-1 justify-center">
+                    <label for="firstName" class="justify-center items-start px-4 py-4 border border-black border-solid max-md:pr-5">First Name</label>
+                    <input type="text" id="firstName" name="firstName" class="sr-only" />
+                    </div>
+                    <div class="flex flex-col flex-1 justify-center">
+                    <label for="lastName" class="justify-center items-start px-4 py-4 border border-black border-solid max-md:pr-5">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" class="sr-only" />
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center mt-2.5 text-sm tracking-tight text-gray-400 whitespace-nowrap">
+                    <label for="address" class="justify-center items-start px-4 py-4 border border-black border-solid max-md:pr-5">Address</label>
+                    <input type="text" id="address" name="address" class="sr-only" />
+                </div>
+                <div class="flex flex-col justify-center mt-2.5 text-sm tracking-tight text-gray-400">
+                    <label for="apartment" class="justify-center items-start px-4 py-3.5 border border-black border-solid max-md:pr-5">Apartment, suite, etc (optional)</label>
+                    <input type="text" id="apartment" name="apartment" class="sr-only" />
+                </div>
+                <div class="flex flex-col justify-center mt-2.5 text-sm tracking-tight text-gray-400 whitespace-nowrap">
+                    <label for="city" class="justify-center items-start px-4 py-3.5 border border-black border-solid max-md:pr-5">City</label>
+                    <input type="text" id="city" name="city" class="sr-only" />
+                </div>
+                <div class="flex gap-3.5 px-px mt-2.5">
+                    <div class="flex flex-col flex-1 justify-center text-sm tracking-tight text-gray-400 whitespace-nowrap">
+                    <div class="flex gap-5 justify-between py-2 pr-2 pl-4 border border-black border-solid">
+                        <label for="country" class="my-auto">Country</label>
+                        <img loading="lazy" src="Images/CheckoutImages/DownArrow.svg" alt="Country flag" class="shrink-0 w-6 aspect-square" />
+                        <select id="country" name="country" class="sr-only">
+                        <option value="us">United States</option>
+                        <option value="ca">Canada</option>
+                        </select>
+                    </div>
+                    </div>
+                    <div class="flex overflow-hidden relative flex-col justify-center aspect-[3.05] w-[122px]">
+                    <img loading="lazy" src="Images/CheckoutImages/City.png" alt="" class="object-cover absolute inset-0 size-full" />
+                    <div class="relative shrink-0 h-10 border border-black border-solid"></div>
+                    </div>
+                    <div class="flex flex-col flex-1 justify-center text-sm tracking-tight text-gray-400 whitespace-nowrap">
+                    <label for="zipcode" class="justify-center items-start px-4 py-3.5 border border-black border-solid max-md:pr-5">Zipcode</label>
+                    <input type="text" id="zipcode" name="zipcode" class="sr-only" />
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center mt-2.5 text-sm tracking-tight text-gray-400 whitespace-nowrap">
+                    <label for="optional" class="justify-center items-start px-4 py-3.5 border border-black border-solid max-md:pr-5">Optional</label>
+                    <input type="text" id="optional" name="optional" class="sr-only" />
+                </div>
+                <div class="flex gap-2.5 mt-6 max-w-full w-[184px]">
+                    <div class="flex flex-col justify-center">
+                    <input type="checkbox" id="saveInfo" name="saveInfo" class="shrink-0 h-5 border border-solid border-stone-950" />
+                    </div>
+                    <label for="saveInfo" class="flex-auto my-auto text-sm tracking-tight text-neutral-400">Save contact information</label>
+                </div>
+                <button type="submit" class="flex flex-col justify-center mt-7 text-base font-semibold tracking-tight leading-6 text-center text-white bg-black">
+                    <div class="justify-center items-center px-16 py-5 border border-solid bg-stone-950 border-stone-950 max-md:px-5">Continue to shipping</div>
+                </button>
+                </form>
+            </div>
+            </section>
+            <section class="flex flex-col ml-60 w-[10%] max-md:ml-0 max-md:w-full">
+                <br><br><br>
+                <h2 class="text-xl tracking-tight leading-7 text-neutral-800">Your cart</h2>
+                <br>
+            <div class="flex flex-col grow text-black max-md:mt-10">
+                <article class="flex gap-2">
+                <img loading="lazy" src="Images/CheckoutImages/Shoe1.png" alt="Shoe" class="w-full aspect-square" style="height: 150px; width: 150px;" />
+                <div class="flex flex-col px-1.5 py-1.5 text-2xl font-semibold tracking-tight leading-7">
+                    <h3>Asics Gel-Cumulus 26 Mens Running Shoes</h3>
+                    <p class="mt-2 text-sm tracking-tight leading-5">Size: 9</p>
+                    <p class="mt-2 text-sm tracking-tight leading-5">Quantity: 1</p>
+                    <p class="mt-2">€160.00</p>
+                </div>
+                <button class="text-sm tracking-tight leading-5 underline">Remove</button>
+                </article>
+                <div class="shrink-0 mt-4 h-px border border-solid bg-neutral-400 border-neutral-400"></div>
+                <article class="flex gap-2 mt-5">
+                <img loading="lazy" src="Images/CheckoutImages/Shoe2.png" alt="Shoe" class="w-full aspect-square" style="height: 150px; width: 150px;" />
+                <div class="flex flex-col px-1.5 py-1.5 text-2xl font-semibold tracking-tight leading-7">
+                    <h3>Nike Pegasus 40 Mens Road Running Shoes</h3>
+                    <p class="mt-2 text-sm tracking-tight leading-5">Size: 10</p>
+                    <p class="mt-2 text-sm tracking-tight leading-5">Quantity: 1</p>
+                    <p class="mt-2">€130.00</p>
+                </div>
+                <button class="text-sm tracking-tight leading-5 underline">Remove</button>
+                </article>
+                <form class="flex flex-col justify-center mt-6 text-sm tracking-tight text-gray-400">
+                <label for="couponCode" class="justify-center items-start px-4 py-3.5 border border-black border-solid max-md:pr-5">Enter coupon code here</label>
+                <input type="text" id="couponCode" name="couponCode" class="sr-only" />
+                </form>
+                <div class="flex flex-col mt-7 text-sm tracking-tight text-stone-950">
+                <div class="flex gap-5 justify-center py-0.5 whitespace-nowrap">
+                    <div>Subtotal</div>
+                    <div class="text-right">€290.00</div>
+                </div>
+                <div class="flex gap-5 justify-center py-0.5 mt-4">
+                    <div>Shipping</div>
+                    <div class="flex-auto text-right">Calculated at the next step</div>
+                </div>
+                <div class="shrink-0 mt-4 h-px bg-black border border-black border-solid"></div>
+                <div class="flex gap-5 justify-center py-0.5 mt-4 whitespace-nowrap">
+                    <div>Total</div>
+                    <div class="text-right">€290.00</div>
+                </div>
+                </div>
+            </div>
+            </section>
+        </div>
+        </div>
+    </main>
+    <div class="shrink-0 mt-40 h-px border border-solid bg-zinc-600 border-zinc-600 max-md:mt-10 max-md:max-w-full"></div>
+    <section class="flex gap-5 justify-between items-start self-center mt-9 w-full text-base max-w-[1011px] max-md:flex-wrap max-md:max-w-full">
+      <div class="flex flex-col text-sm tracking-tight ml-12">
+        <h2 class="text-4xl font-semibold tracking-tighter leading-10 text-black">Sign up for special offers</h2>
+        <p class="mt-6 text-black">Be the first to know about our special offers, news, and updates.</p>
+        <form class="flex flex-col justify-center mt-7">
+          <div class="flex gap-5 justify-between px-4 py-3.5 border border-black border-solid">
+            <label for="emailInput" class="sr-only">Email Address</label>
+            <input type="email" id="emailInput" placeholder="Email Address" aria-label="Email Address" class="text-gray-400" />
+            <button type="submit" class="font-bold text-black">Sign Up</button>
+          </div>
+        </form>
+      </div>
+      <div class="flex flex-col mt-1">
+        <h3 class="text-2xl font-semibold tracking-tight leading-[137.5%] text-neutral-900">HERE TO HELP</h3>
+        <a href="javascript:void(0);" onclick="return false;" class="mt-8 font-medium tracking-normal leading-7 text-neutral-900">Contact Us</a>
+        <a href="javascript:void(0);" onclick="return false;" class="mt-8 font-medium tracking-normal leading-7 text-neutral-900">Order Tracking</a>        
+      </div>
+      <div class="flex flex-col mt-1">
+        <h3 class="text-2xl font-semibold tracking-tight leading-[137.5%] text-neutral-900">OUR SHOPS</h3>
+        <a href="javascript:void(0);" onclick="return false;" class="mt-8 font-medium tracking-normal leading-7 text-neutral-900">Store Locator</a>
+        <a href="javascript:void(0);" onclick="return false;" class="mt-8 font-medium tracking-normal leading-7 text-neutral-900">Store Opening Hours</a>        
+      </div>
+      <div class="flex flex-col mt-1 pr-40">
+        <h3 class="text-2xl font-semibold tracking-tight leading-[137.5%] text-neutral-900">ABOUT US</h3>
+        <a href="javascript:void(0);" onclick="return false;" class="mt-8 font-medium tracking-normal leading-7 text-neutral-900">Sustainability</a>
+        <a href="javascript:void(0);" onclick="return false;" class="mt-8 font-medium tracking-normal leading-7 text-neutral-900">Terms and Conditions</a>        
+      </div>
+    </section>
+  <footer class="justify-center items-center px-16 py-4 mt-36 w-full text-base font-medium text-center text-white uppercase bg-black tracking-[2px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
+    Copyrights RunningShoes.com All Rights Reserved
+  </footer>
+    </div>
+</body>
+</html>    

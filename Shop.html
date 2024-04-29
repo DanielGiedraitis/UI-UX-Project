@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="flex flex-col bg-gray-100">
+        <header class="flex justify-center items-center px-12 py-4 w-full text-base font-medium tracking-tight text-white bg-black max-md:px-5 max-md:max-w-full">
+          <div class="flex gap-5 w-full max-w-[1112px] max-md:flex-wrap max-md:max-w-full">
+            <div>EUR</div>
+            <div class="flex-auto">FREE SHIPPING ON ALL SHOES APRIL. 25–30.</div>
+            <a href="javascript:void(0);" onclick="return false;">Support</a>
+          </div>
+        </header>
+        <nav class="flex flex-col mt-5 w-full text-lg tracking-tight text-black max-md:max-w-full">
+          <div class="flex gap-5 justify-between self-center px-px w-full max-w-[1116px] max-md:flex-wrap max-md:max-w-full">
+            <div class="flex gap-12 justify-center px-12 max-md:flex-wrap">
+              <a href="home.html" class="text-xl font-bold">Running Shoes</a>
+              <a href="Shop.html" class="text-blue-700">Men</a>
+              <a href="javascript:void(0);" onclick="return false;">Women</a>
+              <a href="javascript:void(0);" onclick="return false;">Kids</a>
+              <div class="flex gap-3 py-0 my-auto whitespace-nowrap text-neutral-400">
+                <img loading="lazy" src="Images/CartImages/search.svg" alt="" class="shrink-0 w-4 aspect-square fill-black" />
+                <div>Search</div>
+              </div>
+            </div>
+            <div class="flex gap-5 justify-between pr-12 my-auto whitespace-nowrap">
+              <a href="javascript:void(0);" onclick="return false;" class="flex gap-2.5 self-start px-0.5">
+                <img loading="lazy" src="Images/CheckoutImages/heart.svg" alt="" class="shrink-0 my-auto w-7 aspect-[1.08] fill-black" />
+              </a> 
+              <a href="cart.html" class="flex gap-2">
+                <img loading="lazy" src="Images/HomeImages/cart.svg" alt="" class="shrink-0 aspect-[0.85] fill-black w-[18px]" />
+                <div class="my-auto">2</div>
+              </a>
+              <a href="javascript:void(0);" onclick="return false;">Login</a>
+            </div>
+          </div>
+          <div class="mt-4 w-full bg-black border border-black border-solid min-h-[1px] max-md:max-w-full"></div>
+        </nav>
+        <main class="flex flex-col px-12 mt-7 w-full max-md:px-5 max-md:max-w-full">
+            <h1 class="text-4xl font-semibold tracking-tighter leading-10 text-black max-md:ml-2.5">Shop</h1>
+            <p class="text-xl font-normal tracking-tight leading-7 text-black">Discover the latest footwear in our selection of men’s running shoes.</p>             
+          <section class="self-center mt-14 w-full max-w-[1115px] max-md:mt-10 max-md:max-w-full">
+            <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+              <aside class="flex flex-col w-[19%] max-md:ml-0 max-md:w-full">
+                <div class="flex flex-col mt-1 max-md:mt-10">
+                  <div class="flex gap-5">
+                    <h2 class="text-2xl font-semibold tracking-tight leading-7 text-black">Filters</h2>
+                    <div class="flex-auto text-sm tracking-tight leading-8 underline text-stone-300" style="flex:auto; flex-grow:1; flex-shrink:0; flex-basis:auto;">Clear filters</div>
+                  </div>
+                  <h3 class="mt-8 text-sm font-bold tracking-tight leading-5 text-black">Categories</h3>
+                  <ul class="flex flex-col mt-6">
+                    <li class="flex gap-3">
+                      <div class="flex flex-col justify-center">
+                        <div class="shrink-0 h-5 border border-solid border-stone-950"></div>
+                      </div>
+                      <div class="flex-auto my-auto text-sm tracking-tight leading-4 text-black">Brand</div>
+                    </li>
+                    <li class="flex gap-3 mt-2.5">
+                      <div class="flex flex-col justify-center">
+                        <div class="shrink-0 h-5 border border-solid border-stone-950"></div>
+                      </div>
+                      <div class="flex-auto my-auto text-sm tracking-tight leading-4 text-black">Size</div>
+                    </li>
+                    <li class="flex gap-3 mt-2.5">
+                      <div class="flex flex-col justify-center">
+                        <div class="shrink-0 h-5 border border-solid border-stone-950"></div>
+                      </div>
+                      <div class="flex-auto my-auto text-sm tracking-tight leading-4 text-black">Price</div>
+                    </li>
+                    <li class="flex gap-3 mt-2.5">
+                      <div class="flex flex-col justify-center">
+                        <div class="shrink-0 h-5 border border-solid border-stone-950"></div>
+                      </div>
+                      <div class="flex-auto my-auto text-sm tracking-tight leading-4 text-black">Colour</div>
+                    </li>
+                  </ul>
+                </div>
+              </aside>
+              <div class="flex flex-col ml-5 w-[81%] max-md:ml-0 max-md:w-full">
+                <div class="flex flex-col grow max-md:mt-10 max-md:max-w-full">
+                  <div class="flex flex-col self-end px-px w-45 max-w-full text-black">
+                    <div class="flex flex-col justify-center tracking-tight">
+                      <div class="flex gap-3.5 px-3.5 py-2 border border-solid border-blue-950">
+                        <div class="grow my-auto text-sm leading-7">Sort By</div>
+                        <div class="flex gap-1.5 text-sm font-bold leading-7 whitespace-nowrap">
+                          <div class="grow my-auto">Popular</div>
+                          <img loading="lazy" src="Images/ShopImages/Arrow.svg" alt="" class="shrink-0 w-6 aspect-square" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="self-start mt-3.5 ml-4 text-sm tracking-tight leading-5 max-md:ml-2.5">Showing 254 Products</div>
+                  </div>
+                  <div class="flex flex-col mt-7 max-md:max-w-full">
+                    <div class="max-md:max-w-full">
+                      <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+                        <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+                          <a href="product.html">
+                            <div class="flex flex-col grow pb-1.5 text-lg tracking-tight leading-7 text-black max-md:mt-5">
+                              <img loading="lazy" src="Images/ShopImages/shoe.jpg" alt="Shoe" class="w-full aspect-square" style="height: 520px; width: 520px;" />
+                              <h3 class="mt-5 font-bold">Asics Gel-Cumulus 26 Mens Running Shoes</h3>
+                              <div class="mt-2.5">€160.00</div>
+                            </div>
+                          </a>                          
+                        </article>
+                        <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+                          <a href="javascript:void(0);" onclick="return false;">
+                            <article class="flex flex-col grow pb-1.5 text-lg tracking-tight leading-7 text-black whitespace-nowrap max-md:mt-5">
+                              <img loading="lazy" src="Images/ShopImages/shoe2.jpg" alt="Shoe" class="w-full aspect-square" style="height: 520px; width: 520px;" />
+                              <h3 class="mt-5 font-bold">Nike Pegasus 40 Mens Road Running Shoes</h3>
+                              <div class="mt-3.5">€130.00</div>
+                            </article>
+                          </a>
+                        </div>                        
+                        <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+                          <a href="javascript:void(0);" onclick="return false;">
+                            <article class="flex flex-col grow pb-1.5 text-lg tracking-tight leading-7 text-black max-md:mt-5">
+                              <img loading="lazy" src="Images/ShopImages/shoe3.jpg" alt="Shoe" class="w-full aspect-square" style="height: 520px; width: 520px;" />
+                              <h3 class="mt-5 font-bold">adidas Supernova Solution Mens Running Shoes</h3>
+                              <div class="mt-2.5">€150.00</div>
+                            </article>
+                          </a>
+                        </div>                        
+                      </div>
+                    </div>
+                    <div class="mt-5 max-md:max-w-full">
+                      <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+                        <div class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+                          <a href="javascript:void(0);" onclick="return false;">
+                            <article class="flex flex-col grow pb-1.5 text-lg tracking-tight leading-7 text-black max-md:mt-5">
+                              <img loading="lazy" src="Images/ShopImages/shoe4.jpg" alt="Shoe" class="w-full aspect-square" style="height: 520px; width: 520px;" />
+                              <h3 class="mt-5 font-bold">Puma Velocity NITRO™ 3 Mens Running Shoes</h3>
+                              <div class="mt-3.5">€130.00</div>
+                            </article>
+                          </a>
+                        </div>                        
+                        <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+                          <a href="javascript:void(0);" onclick="return false;">
+                            <article class="flex flex-col grow pb-1.5 text-lg tracking-tight leading-7 text-black whitespace-nowrap max-md:mt-5">
+                              <img loading="lazy" src="Images/ShopImages/shoe5.jpg" alt="Shoe" class="w-full aspect-square" style="height: 520px; width: 520px;" />
+                              <h3 class="mt-5 font-bold">Brooks Glycerin 21 Mens Running Shoes</h3>
+                              <div class="mt-3.5">€180.00</div>
+                            </article>
+                          </a>
+                        </div>                        
+                        <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+                          <a href="javascript:void(0);" onclick="return false;">
+                            <article class="flex flex-col grow pb-1.5 text-lg tracking-tight leading-7 text-black whitespace-nowrap max-md:mt-5">
+                              <img loading="lazy" src="Images/ShopImages/shoe6.jpg" alt="Shoe" class="w-full aspect-square" style="height: 520px; width: 520px;" />
+                              <h3 class="mt-5 font-bold">Brooks Adrenaline GTS 23 Mens Running Shoes</h3>
+                              <div class="mt-3.5">€150.00</div>
+                            </article>
+                          </a>
+                        </div>                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col justify-center self-center mt-11 max-w-full text-base font-semibold tracking-tight leading-6 text-center text-stone-950 w-[299px] max-md:mt-10 text-white bg-black">
+                    <button class="justify-center items-center px-16 py-5 border border-solid bg-opacity-0 border-stone-950 max-md:px-5">Load more products</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="shrink-0 mt-40 h-px border border-solid bg-zinc-600 border-zinc-600 max-md:mt-10 max-md:max-w-full"></div>
+          <section class="flex gap-5 justify-between items-start self-center mt-9 w-full text-base max-w-[1011px] max-md:flex-wrap max-md:max-w-full">
+            <div class="flex flex-col text-sm tracking-tight">
+              <h2 class="text-4xl font-semibold tracking-tighter leading-10 text-black">Sign up for special offers</h2>
+              <p class="mt-6 text-black">Be the first to know about our special offers, news, and updates.</p>
+              <form class="flex flex-col justify-center mt-7">
+                <div class="flex gap-5 justify-between px-4 py-3.5 border border-black border-solid">
+                  <label for="emailInput" class="sr-only">Email Address</label>
+                  <input type="email" id="emailInput" placeholder="Email Address" aria-label="Email Address" class="text-gray-400" />
+                  <button type="submit" class="font-bold text-black">Sign Up</button>
+                </div>
+              </form>
+            </div>
+            <div class="flex flex-col mt-1">
+              <h3 class="text-2xl font-semibold tracking-tight leading-[137.5%] text-neutral-900">HERE TO HELP</h3>
+              <a href="javascript:void(0);" onclick="return false;" class="mt-8 font-medium tracking-normal leading-7 text-neutral-900">Contact Us</a>
+              <a href="javascript:void(0);" onclick="return false;" class="mt-8 font-medium tracking-normal leading-7 text-neutral-900">Order Tracking</a>              
+            </div>
+            <div class="flex flex-col mt-1">
+              <h3 class="text-2xl font-semibold tracking-tight leading-[137.5%] text-neutral-900">OUR SHOPS</h3>
+              <a href="javascript:void(0);" onclick="return false;" class="mt-8 font-medium tracking-normal leading-7 text-neutral-900">Store Locator</a>
+              <a href="javascript:void(0);" onclick="return false;" class="mt-8 font-medium tracking-normal leading-7 text-neutral-900">Store Opening Hours</a>              
+            </div>
+            <div class="flex flex-col mt-1 pr-40">
+              <h3 class="text-2xl font-semibold tracking-tight leading-[137.5%] text-neutral-900">ABOUT US</h3>
+              <a href="javascript:void(0);" onclick="return false;" class="mt-8 font-medium tracking-normal leading-7 text-neutral-900">Sustainability</a>
+              <a href="javascript:void(0);" onclick="return false;" class="mt-8 font-medium tracking-normal leading-7 text-neutral-900">Terms and Conditions</a>              
+            </div>
+          </section>
+        </main>
+        <footer class="justify-center items-center px-16 py-4 mt-36 w-full text-base font-medium text-center text-white uppercase bg-black tracking-[2px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
+          Copyrights RunningShoes.com All Rights Reserved
+        </footer>
+      </div>
+</body>
+</html>
